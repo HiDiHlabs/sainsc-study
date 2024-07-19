@@ -1,0 +1,23 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
+ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+JupyterFormatter = "b8b539d8-55b4-4e60-a505-d7876c054e58"
+Muon = "446846d7-b4ce-489d-bf74-72da18fe3629"
+OpenCV = "f878e3a2-a245-4720-8660-60795d644f2a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Sainsc = "4c4340ea-7f9e-46b4-8512-61f1f6c41a11"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+julia = "1.9"
