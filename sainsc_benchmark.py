@@ -25,12 +25,13 @@ def main():
     print(args)
 
     import pandas as pd
+
     from sainsc import read_StereoSeq
 
     stereo = read_StereoSeq(args.input, resolution=500, n_threads=args.n_threads)
 
     stereo.gaussian_kernel(8)
-    
+
     print(stereo)
 
     signatures = pd.read_csv(args.signatures, index_col=0, sep="\t").loc[
@@ -46,6 +47,7 @@ def main():
     stereo.assign_celltype(signatures, log=True)
 
     print("Done")
+
 
 if __name__ == "__main__":
     main()

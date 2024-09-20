@@ -41,3 +41,4 @@ FICTURE/minimal_nthread8/analysis/nF42.d_15/nF42.d_15.decode.prj_15.r_4_5.done: 
 	$(info Performing pixel-level decoding..)
 	$(info --------------------------------------------------------------)
 	ficture slda_decode --input FICTURE/minimal_nthread8/batched.matrix.tsv.gz --output FICTURE/minimal_nthread8/analysis/nF42.d_15/nF42.d_15.decode.prj_15.r_4_5 --model FICTURE/minimal_nthread8/analysis/nF42.d_15/nF42.d_15.model.p --anchor FICTURE/minimal_nthread8/analysis/nF42.d_15/nF42.d_15.prj_15.r_4.fit_result.tsv.gz --anchor_in_um --neighbor_radius 5 --mu_scale 2.0 --key Count --precision 0.1 --lite_topk_output_pixel 3 --lite_topk_output_anchor 3 --thread 8
+	touch FICTURE/minimal_nthread8/analysis/nF42.d_15/nF42.d_15.decode.prj_15.r_4_5.done
