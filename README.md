@@ -1,6 +1,10 @@
 # Sainsc Study
 
-This repository contains the code (mostly in form of notebooks) to reproduce the study published in ...
+This repository contains the code (mostly in form of notebooks) to reproduce the study published in
+
+N. Müller-Bötticher, S. Tiesmeyer, R. Eils, N. Ishaque,
+Sainsc: A Computational Tool for Segmentation-Free Analysis of In Situ Capture Data. 
+*Small Methods* (2024) https://doi.org/10.1002/smtd.202401123
 
 ## Data download
 
